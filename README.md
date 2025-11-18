@@ -19,20 +19,25 @@ This project includes user authentication, event pages, and a structured UI.
 ## 📁 Project Structure
 project/
 │── core/
-│ ├── templates/
-│ │ ├── core/
-│ │ │ ├── base.html
-│ │ │ ├── login.html
-│ │ │ ├── welcome.html
-│ ├── static/
-│ │ ├── core/css/style.css
-│ ├── views.py
-│ ├── urls.py
-│ ├── models.py
+│   ├── templates/
+│   │   ├── core/
+│   │   │   ├── base.html
+│   │   │   ├── login.html
+│   │   │   ├── welcome.html
+│   ├── static/
+│   │   ├── core/
+│   │   │   └── css/
+│   │   │       └── style.css
+│   ├── views.py
+│   ├── urls.py
+│   ├── models.py
+│
 │── project_name/
-│ ├── settings.py
-│ ├── urls.py
-│── manage.py
+│   ├── settings.py
+│   ├── urls.py
+│
+└── manage.py
+
 
 
 git clone <your-repo-url>
