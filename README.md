@@ -40,22 +40,22 @@ project/
 
 
 
-git clone <your-repo-url>
+# 1 git clone <your-repo-url>
 cd project-folder
-2️⃣ Create virtual environment
+# 2 Create virtual environment
 bash
 Copy code
 python -m venv venv
 venv\Scripts\activate      # For Windows
-3️⃣ Install dependencies
+# 3 Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
-4️⃣ Run migrations
+# 4 Run migrations
 bash
 Copy code
 python manage.py migrate
-5️⃣ Start the server
+# 5 Start the server
 bash
 Copy code
 python manage.py runserver . 
