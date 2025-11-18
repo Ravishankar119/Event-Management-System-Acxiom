@@ -17,6 +17,7 @@ This project includes user authentication, event pages, and a structured UI.
 ---
 
 ## 📁 Project Structure
+
 project/
 │── core/
 │   ├── templates/
@@ -40,22 +41,22 @@ project/
 
 
 
-# 1 git clone <your-repo-url>
+1 git clone <your-repo-url>
 cd project-folder
-# 2 Create virtual environment
+2 Create virtual environment
 bash
 Copy code
 python -m venv venv
 venv\Scripts\activate      # For Windows
-# 3 Install dependencies
+3 Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
-# 4 Run migrations
+4 Run migrations
 bash
 Copy code
 python manage.py migrate
-# 5 Start the server
+5 Start the server
 bash
 Copy code
 python manage.py runserver . 
