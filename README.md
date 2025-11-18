@@ -3,8 +3,6 @@
 A simple, clean, and user-friendly Event Management System built using **Django**.  
 This project includes user authentication, event pages, and a structured UI.
 
----
-
 ## 🚀 Features
 
 - User Login / Logout system  
@@ -14,10 +12,7 @@ This project includes user authentication, event pages, and a structured UI.
 - Static files setup (CSS/Images)  
 - Django template inheritance (`base.html`)
 
----
-
 ## 📁 Project Structure
-
 project/
 │── core/
 │   ├── templates/
