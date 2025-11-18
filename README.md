@@ -1,6 +1,6 @@
 # Event Management System (Django)
 
-A simple, clean, and user-friendly Event Management System built using **Django**.  
+A simple, clean, and user-friendly Event Management System built using **Acxiom Consulting**.  
 This project includes user authentication, event pages, and a structured UI.
 
 ---
