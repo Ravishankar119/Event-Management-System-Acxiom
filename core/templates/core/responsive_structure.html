@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>System Flow Website</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #2c3e50; color: white; padding: 15px; text-align: center; }
+    nav { background: #34495e; padding: 10px; display: flex; flex-wrap: wrap; }
+    nav a { color: white; margin-right: 15px; text-decoration: none; padding: 8px 12px; }
+    nav a:hover { background: #2c3e50; border-radius: 5px; }
+    .container { padding: 20px; }
+    .section { margin-bottom: 40px; }
+    h2 { color: #2c3e50; }
+    ul { list-style-type: square; margin-left: 20px; }
+    @media (max-width: 600px) {
+      nav { flex-direction: column; }
+      nav a { margin-bottom: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>System Portal</h1>
+  </header>
+
+  <nav>
+    <a href="#start">Start</a>
+    <a href="#admin">Admin</a>
+    <a href="#vendor">Vendor</a>
+    <a href="#user">User</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="section" id="start">
+      <h2>Start & Login Flow</h2>
+      <ul>
+        <li>START</li>
+        <li>INDEX</li>
+        <li>LOGIN</li>
+      </ul>
+    </div>
+
+    <div class="section" id="admin">
+      <h2>Admin Section</h2>
+      <ul>
+        <li>Maintenance Menu
+          <ul>
+            <li>Add/Update Memberships</li>
+            <li>Add/Update User</li>
+            <li>Add/Update Vendor</li>
+            <li>Users Management</li>
+            <li>Vendor Management</li>
+          </ul>
+        </li>
+        <li>Add Membership for Vendor</li>
+        <li>Update Membership for Vendor</li>
+      </ul>
+    </div>
+
+    <div class="section" id="vendor">
+      <h2>Vendor Section</h2>
+      <ul>
+        <li>Main Page
+          <ul>
+            <li>Your Item
+              <ul>
+                <li>Insert</li>
+                <li>Delete</li>
+              </ul>
+            </li>
+            <li>Add New Item
+              <ul>
+                <li>Product Status</li>
+                <li>Request Item</li>
+                <li>View Product</li>
+              </ul>
+            </li>
+            <li>Transaction
+              <ul>
+                <li>User Request</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section" id="user">
+      <h2>User Section</h2>
+      <ul>
+        <li>Vendor</li>
+        <li>Cart
+          <ul>
+            <li>Payment</li>
+            <li>Total Amount</li>
+            <li>Cancel</li>
+          </ul>
+        </li>
+        <li>Guest List
+          <ul>
+            <li>Update</li>
+            <li>Delete</li>
+          </ul>
+        </li>
+        <li>Order Status
+          <ul>
+            <li>Check Status</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
