@@ -1,5 +1,40 @@
-# Event Management System (Django) A simple, clean, and user-friendly Event Management System built using **Django**. This project includes user authentication, event pages, and a structured UI. --- ## 🚀 Features - User Login / Logout system - Clean UI with reusable templates - Header navigation with authentication check - Modular app structure - Static files setup (CSS/Images) - Django template inheritance (base.html) --- ## 📁 Project Structure project/ │── core/ │ ├── templates/ │ │ ├── core/ │ │ │ ├── base.html │ │ │ ├── login.html │ │ │ ├── welcome.html │ ├── static/ │ │ ├── core/css/style.css │ ├── views.py │ ├── urls.py │ ├── models.py │── project_name/ │ ├── settings.py │ ├── urls.py │── manage.py yaml Copy code --- ## 🔧 Tech Stack - **Python 3** - **Django 4+** - HTML + CSS - Django Template Engine --- ## ⚙️ Installation & Setup ### 1️⃣ Clone repository
-bash
+# Event Management System (Django)
+
+A simple, clean, and user-friendly Event Management System built using **Django**.  
+This project includes user authentication, event pages, and a structured UI.
+
+---
+
+## 🚀 Features
+
+- User Login / Logout system  
+- Clean UI with reusable templates  
+- Header navigation with authentication check  
+- Modular app structure  
+- Static files setup (CSS/Images)  
+- Django template inheritance (`base.html`)
+
+---
+
+## 📁 Project Structure
+project/
+│── core/
+│ ├── templates/
+│ │ ├── core/
+│ │ │ ├── base.html
+│ │ │ ├── login.html
+│ │ │ ├── welcome.html
+│ ├── static/
+│ │ ├── core/css/style.css
+│ ├── views.py
+│ ├── urls.py
+│ ├── models.py
+│── project_name/
+│ ├── settings.py
+│ ├── urls.py
+│── manage.py
+
+
 git clone <your-repo-url>
 cd project-folder
 2️⃣ Create virtual environment
