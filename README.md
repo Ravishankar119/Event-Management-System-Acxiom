@@ -13,7 +13,7 @@ This project includes user authentication, event pages, and a structured UI.
 - Django template inheritance (`base.html`)
 
 ## 📁 Project Structure
-'''
+```
 project/
 │── core/
 │   ├── templates/
@@ -32,9 +32,9 @@ project/
 │── project_name/
 │   ├── settings.py
 │   ├── urls.py
-│
-└── manage.py
-'''
+│── manage.py
+```
+
 
 
 1 git clone <your-repo-url>
